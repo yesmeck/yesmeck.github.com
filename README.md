@@ -1,1 +1,1 @@
-# blog.yesmeck.com
+# http://blog.yesmeck.com
