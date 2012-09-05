@@ -5,6 +5,7 @@ description: ""
 category:
 tags: []
 ---
+
 {% include JB/setup %}
 
 持久化登录 cookies 也就是当用户在登录框里点击“记住我的”的按钮后把 cookies 保存到用户的浏览器上。
@@ -13,7 +14,7 @@ tags: []
 
     1. Cookie 是脆弱的。cookie 容易被窃取和受到垮站脚本的攻击，我们必须接受 cookie 是不安全的。
     2. 持久化登录 cookies 使得它们能通过网站的认证。这跟使用用户名和密码登录是相同的。
-    3. 任何能从登录 cookie 里恢复密码的设计比不能恢复更危险。
+    3. 能从登录 cookie 里恢复密码的设计比不能恢复更危险。
     4. 把持久化 cookie 跟 ip 绑定起来大多数时候使它们并不持久。
     5. 用户可能希望同时把 cookie 持久保存在多个浏览器，多台机器上。
 
@@ -53,3 +54,7 @@ id | username | token | expire_time |
     * 重置用户密码
     * 以用户的名义阻止用户接收网站的通知
     * 共享偷到的 cookie 给其他人
+    
+    
+参考：
+http://fishbowl.pastiche.org/2004/01/19/persistent_login_cookie_best_practice/
