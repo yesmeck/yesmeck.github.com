@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Ruby 中隐秘的$变量和他们的意思"
+title: "Ruby 中隐藏的$变量和他们的意思"
 description: ""
 category:
 tags: []
 ---
 {% include JB/setup %}
 
-Ruby 中充满了一系列的隐秘变量，我们可以从这么预定义的全局变量中获取一些有意思的信息。
+Ruby 中充满了一系列的隐藏变量，我们可以从这么预定义的全局变量中获取一些有意思的信息。
 
 ## 全局进程变量
 
