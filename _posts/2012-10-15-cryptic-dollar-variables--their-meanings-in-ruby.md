@@ -224,3 +224,5 @@ Where
 and
 Why
 {% endhighlight %}
+
+原文：http://blog.dcxn.com/2012/09/16/cryptic-dollar-variables-and-their-meanings/
