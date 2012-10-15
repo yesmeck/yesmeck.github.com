@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby 中隐藏的$变量和他们的意思"
+title: "Ruby 中那些隐藏的$变量"
 description: ""
 category:
 tags: []
