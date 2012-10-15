@@ -112,7 +112,7 @@ mooooooo >> a
 
 假设有个叫`letter.text`的文件：
 
-{% highlight %}
+{% highlight text %}
 Dear Caroline,
 I think we need some honey for tea.
 I also think that I may have misplaced my red tie, have you seen it?
