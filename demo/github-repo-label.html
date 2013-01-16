@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub repo label</title>
+  <style type="text/css">
+    #container {
+      background: rgb(201, 192, 192);
+      height: 100px;
+      width: 960px;
+      margin: auto;
+    }
+    #title-bar {
+      width: 960px;
+      position: relative;
+    }
+    #repo-label {
+      position: absolute;
+      top: 14px;
+      left: -67px;
+      width: 65px;
+      margin-top: -14px;
+      text-align: right;
+      font-size: 11px;
+      text-transform: uppercase;
+      color: #b9b9b9;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-shadow: none;
+      -moz-transition: all 0.4s ease-in-out 0;
+      -webkit-transition: all 0.4s ease-in-out 0;
+    }
+    #repo-label span {
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #b9b9b9;
+      font-size: 11px;
+      text-align: right;
+      letter-spacing: 0px;
+      text-shadow: none;
+    }
+
+    @media screen and (max-width: 1045px) {
+      #repo-label {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        top: 41px;
+        left: -38px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="title-bar">
+      <span id="repo-label">
+        <span>public</span>
+      </span>
+    </div>
+  </div>
+</body>
+</html>
