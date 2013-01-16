@@ -43,6 +43,6 @@ Responsive desgin，听名字很唬人，稍微研究一下其实实现起来很
 }
 {% endhighlight %}
 
-直接在写 css 的时候就可以定义那些样式作用于哪些 media，甚至还可以写条件。
+直接在写 css 的时候就可以定义哪些样式作用于哪些 media，甚至还可以写条件。
 
 所以 GitHub 那个标签的实现就可以想通了，顺便做了一个 [Demo](/demo/github-repo-label.html) 验证了一下。
